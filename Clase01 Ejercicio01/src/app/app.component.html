@@ -12,8 +12,8 @@
   </div>
 </form>
 <div class="resultadoContainer" *ngIf="resultadoSuma">
-  <span class="resultado">Resultado Suma: {{ resultadoSuma }}</span>
+  <span class="resultado">Resultado Suma: <input type="number" [value]="resultadoSuma" readonly></span>
 </div>
 <div class="resultadoContainer" *ngIf="resultadoPromedio">
-  <span class="resultado">Resultado Promedio: {{ resultadoPromedio }}</span>
+  <span class="resultado">Resultado Promedio: <input type="number" [value]="resultadoPromedio" readonly></span>
 </div>

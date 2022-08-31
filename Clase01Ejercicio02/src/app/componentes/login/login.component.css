@@ -61,24 +61,3 @@ input{
     column-gap: 20px;
     align-items: center;
 }
-
-.resultadoContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    margin-top:2rem;
-}
-
-.resultado{
-    width: 50%;
-    background-color:#333c87;
-    border-radius: 5px;
-    text-align: center;
-    padding:1rem;
-    color:white;
-}
-
-.resultado input{
-    height:auto;
-}
